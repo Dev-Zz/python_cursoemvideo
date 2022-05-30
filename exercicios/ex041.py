@@ -23,3 +23,4 @@ elif idade > 19 and idade <= 25:
     print('SÊNIOR')
 elif idade > 25:
     print('MASTER')
+    

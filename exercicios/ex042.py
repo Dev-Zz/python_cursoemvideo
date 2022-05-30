@@ -14,9 +14,9 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
     print('Parabens você consegue formar um triangulo!')
     if r1 == r2 == r3:
         print('Seu triangulo é EQUILÁTERO!')
-    if r1 != r2 != r3 != r1:
-        print('Seu triangulo é ISÓSCELES!')
-    if :
+    elif r1 != r2 != r3 != r1:
         print('Seu triangulo é ESCALENO!')
+    else:
+        print('Seu triangulo é ISÓSCELES')
 else:
     print('Não é possivel formar um triangulo com esses valores!')
