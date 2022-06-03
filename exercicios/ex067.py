@@ -8,12 +8,12 @@ while True:
     n = int(input('Quer ver a TABUADA de qual valor? '))
     if n < 0:
         break
-    print('-' *30)
+    print('-' *40)
     for c in range(1, 11):
         print(f'{n} X {c} = {n*c}')
-    if n == (-n):
+    if n < 0:
         break
-    print('-' *30)
-print('=-'*15)
+    print('-' *40)
+print('-'*40)
 print('VOCÊ PAROU O PROGRAMA')
-print('=-'*15)
+print('-'*40)

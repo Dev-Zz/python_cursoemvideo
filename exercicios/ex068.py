@@ -17,11 +17,11 @@ while True:
     
 QUAL A OPÇÃO QUE VOCÊ ESCOLHE? '''))
     print('='*100)
-    jogador = int(input('Qual seu palpite de 1 - 5(EQUIVALENTE AOS NÚMEROS DE UMA MÃO): '))
+    jogador = int(input('Qual seu palpite de [1] - [5] (EQUIVALENTE AOS NÚMEROS DE UMA MÃO): '))
     print('='*100)
     pc = randint(0, 5)
     resultado = jogador + pc
-
+    print(f'O jogador jogou {jogador} e o computador jogou {pc}')
     if escolha_jogador == 1:
         escolha_pc = escolha_pc + 2
         if (resultado%2) == 0:
